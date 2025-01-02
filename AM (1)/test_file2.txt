@@ -1,0 +1,24 @@
+public class TestClass {
+    int a;
+    double b;
+    private String name;
+
+    public void method1(int x, double y) {
+        int i;
+        for (i = 0; i < 10; i = i + 1) {
+            out.print("i: ", i);
+        }
+        method2();
+    }
+
+    private void method2() {
+        int = j;
+        j = 5;
+        out.print("j: ", j);
+    }
+
+    public static void main(String[] args) {
+        TestClass obj = new TestClass();
+        obj.method1(10, 20.5);
+    }
+}

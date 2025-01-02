@@ -1,0 +1,36 @@
+public class Sample {
+    int x = 10;
+    char y = 'a';
+    double z = 10.5d;
+    boolean flag = true;
+
+    public void method1() {
+        int a = 5;
+        if (a > 0) {
+            out.print("a is positive");
+        } else {
+            out.print("a is non-positive");
+        }
+
+        for (int i = 0; i < 10; i = i + 1) {
+            out.print("i: ", i);
+        }
+
+
+        switch (a) {
+            case 1:
+                out.print("a is one");
+                break;
+            case 2:
+                out.print("a is two");
+                break;
+            default:
+                out.print("a is other");
+        }
+    }
+
+    private int method2(int param1, char param2) {
+        int result = param1 + param2;
+        return result;
+    }
+}
