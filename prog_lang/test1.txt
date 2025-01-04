@@ -1,0 +1,11 @@
+public class MyClass {
+    public int x = 5;
+    private String y = "hello";
+
+    public void myMethod() {
+        print(x);
+
+        MyClass obj = new MyClass();
+        obj.method();
+    }
+}

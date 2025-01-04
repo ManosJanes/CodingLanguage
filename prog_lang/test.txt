@@ -1,0 +1,22 @@
+public class HelloWorld {
+    public int number = 10;
+    private String message = "Hello, world!";
+    
+    public void printMessage() {
+        out.print(message);
+    }
+    
+    public static void main() {
+        HelloWorld hw = new HelloWorld();
+        hw.printMessage();
+        
+        int x = 0;
+        for (int i = 0; i < 5; i = i + 1) {
+            out.print("Iteration: ", i);
+        }
+        
+        do {
+            x = x + 1;
+        } while (x < 10);
+    }
+}
